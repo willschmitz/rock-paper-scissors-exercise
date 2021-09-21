@@ -25,6 +25,7 @@ computer_choice = random.choice(options)
 print("Computer Chose:")
 print(computer_choice)
 
+#serena and I worked together to come up with our If statements for determining winner
 if user_choice == "rock":
     if computer_choice == "rock":
         print("Its a tie. Want try again?")
