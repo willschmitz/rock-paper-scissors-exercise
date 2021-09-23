@@ -2,7 +2,6 @@
 
 import random
 
-
 print("Hello! Welcome 'Player One' to Rock, Paper, Scissors, Shoot!")
 
 #Promt User for input 
@@ -26,9 +25,10 @@ print("Computer Chose:")
 print(computer_choice)
 
 #serena and I worked together to come up with our If statements for determining winner
+
 if user_choice == "rock":
     if computer_choice == "rock":
-        print("Its a tie. Want try again?")
+        print("Its a tie. Want to try again?")
     if computer_choice == "paper":
         print("Oh no. Paper beats Rock. You lost this time.")
     if computer_choice == "scissors":
