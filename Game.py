@@ -1,8 +1,15 @@
 #game.py
 
-import random
+import random 
 
-print("Hello! Welcome 'Player One' to Rock, Paper, Scissors, Shoot!")
+import os
+from dotenv import load_dotenv
+load_dotenv() 
+x = os.getenv("PLAYER_NAME")
+
+print(os.getenv('PLAYER_NAME'))
+
+print("Hello! Welcome" ,x, "to Rock, Paper, Scissors, Shoot!")
 
 #Promt User for input 
 
