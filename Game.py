@@ -16,8 +16,10 @@ print("Hello! Welcome" ,x, "to Rock, Paper, Scissors, Shoot!")
 
 #x=input("Choose 'rock' or 'paper' or 'scissors'")
 user_choice = input("Please choose 'rock' or 'paper' or 'scissors'")
+print("--------")
 print("User Chose:")
 print(user_choice)
+print("--------")
 
 # Computer Choice (At Random)
 
@@ -31,6 +33,7 @@ if user_choice not in options:
 computer_choice = random.choice(options)
 print("Computer Chose:")
 print(computer_choice)
+print("--------")
 
 #serena and I worked together to come up with our If statements for determining winner
 
@@ -57,5 +60,7 @@ if user_choice == "scissors":
         print("Oh no. Rock beats Scissors. You lost this time.")
     if computer_choice == "Paper":
         print("Congratulations! Scissors beats Paper. You win!")
+
+print("--------")
 
 print("Thanks for playing today. Come back soon to play again.")

@@ -1,18 +1,34 @@
 # rock-paper-scissors-exercise
 
-make sure to enter: import random at the start of your code if it is not already there
+Welcome to this Rock, Paper, Scissors program
 
-input all the steps needed to run from download 
+## Prerequisites
 
+  + Anaconda 3.7+
+  + Python 3.7+
+  + Pip
 
-Extra bits of code still messing around with 
+## Installation
 
-for env files 
+Fork this [remote repository](https://github.com/willschmitz/rock-paper-scissors-exercise) under your own control, then "clone" or download your remote copy onto your local computer. Then navigate there from the command line to the root directory prior to running your other commands.
+````
+cd desktop/rock-paper-scissors-exercise
+````
+Then you should use Anaconda to create and activate a new virtual environment
+````
+conda create -n my-first-env python=3.7  #This is only necessary the first time
+conda activate my-first-env
+````
 
-import os
-from dotenv import load_dotenv
+After you create the virtual environment, you need to install some package dependancies. (See the [requirements.txt] (/requirements.txt) file) Run: 
+````
+pip install -r requirements.txt 
+````
 
+#Setup
+In the root directory of your local depository, create a new file called ".env" and update the contents of the file with your desired username for the game. (Make sure to save the file afterwards). Use the variable PLAYER_NAME="" anf fill in your preferred name. 
 
-load_dotenv()
-
-name = 
+#Usage
+Run the python script:
+```py
+python Game.py
